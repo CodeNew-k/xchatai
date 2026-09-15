@@ -1,270 +1,269 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- ===== TKD 设置 ===== -->
-    <title>xchatweb.cn xchatai.com.cn xchatapp.com.cn 域名出售</title>
-    <meta name="keywords" content="xchatweb.cn,xchatai.com.cn,xchatapp.com.cn,域名出售,低价域名,chat域名,聊天工具域名,聚名网" />
-    <meta name="description" content="xchatweb.cn、xchatai.com.cn、xchatapp.com.cn 域名出售，价格亲民，适合聊天工具、AI对话、社交应用等项目。查看报价请访问 https://www.juming.com/1146824/ 联系卖家：pydomain@163.com" />
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(145deg, #0b0e1a 0%, #1a1f35 100%);
-            padding: 20px;
-        }
-
-        .card {
-            max-width: 700px;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.04);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 32px;
-            padding: 44px 36px;
-            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
-            text-align: center;
-        }
-
-        /* 头部 */
-        .header h1 {
-            font-size: 14px;
-            font-weight: 400;
-            color: rgba(255, 255, 255, 0.3);
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-bottom: 6px;
-        }
-
-        .header .badge {
-            display: inline-block;
-            padding: 4px 18px;
-            border-radius: 100px;
-            font-size: 13px;
-            font-weight: 600;
-            background: linear-gradient(135deg, #f59e0b, #f97316);
-            color: #0b0e1a;
-        }
-
-        .divider {
-            margin: 22px 0 28px;
-            height: 1px;
-            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.10), transparent);
-        }
-
-        /* ===== 每个域名条目 ===== */
-        .domain-item {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.06);
-            border-radius: 20px;
-            padding: 20px 24px;
-            margin-bottom: 14px;
-            transition: all 0.25s ease;
-        }
-
-        .domain-item:hover {
-            background: rgba(255, 255, 255, 0.07);
-            border-color: rgba(255, 255, 255, 0.12);
-            transform: translateY(-2px);
-        }
-
-        .domain-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .domain-item .name {
-            font-size: 26px;
-            font-weight: 700;
-            color: #ffffff;
-            letter-spacing: -0.5px;
-        }
-
-        .domain-item .name .ext {
-            color: rgba(255, 255, 255, 0.25);
-            font-weight: 300;
-        }
-
-        .domain-item .desc {
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.4);
-            margin-top: 4px;
-        }
-
-        .domain-item .desc span {
-            display: inline-block;
-            margin: 0 4px;
-            padding: 0 10px;
-            font-size: 12px;
-            color: rgba(255, 255, 255, 0.25);
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 12px;
-        }
-
-        .domain-item .price-tag {
-            display: inline-block;
-            margin-top: 8px;
-            padding: 2px 16px;
-            font-size: 12px;
-            font-weight: 500;
-            color: rgba(255, 255, 255, 0.5);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 20px;
-        }
-
-        /* ===== 行动按钮 ===== */
-        .actions {
-            margin-top: 28px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            justify-content: center;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 14px 36px;
-            border-radius: 60px;
-            font-size: 16px;
-            font-weight: 600;
-            text-decoration: none;
-            color: #ffffff;
-            background: linear-gradient(135deg, #6c8cff, #7c6df0);
-            box-shadow: 0 8px 28px rgba(108, 140, 255, 0.25);
-            transition: all 0.3s ease;
-        }
-
-        .btn:hover {
-            transform: translateY(-3px) scale(1.02);
-            box-shadow: 0 14px 40px rgba(108, 140, 255, 0.40);
-        }
-
-        .btn-outline {
-            background: transparent;
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            box-shadow: none;
-        }
-
-        .btn-outline:hover {
-            background: rgba(255, 255, 255, 0.06);
-            border-color: rgba(255, 255, 255, 0.25);
-            box-shadow: none;
-        }
-
-        /* ===== 底部 ===== */
-        .footer {
-            margin-top: 26px;
-            font-size: 13px;
-            color: rgba(255, 255, 255, 0.2);
-        }
-
-        .footer a {
-            color: rgba(255, 255, 255, 0.35);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .footer a:hover {
-            color: rgba(255, 255, 255, 0.6);
-        }
-
-        /* ===== 响应式 ===== */
-        @media (max-width: 600px) {
-            .card {
-                padding: 30px 18px;
-                border-radius: 24px;
-            }
-
-            .domain-item .name {
-                font-size: 20px;
-            }
-
-            .btn {
-                padding: 12px 24px;
-                font-size: 14px;
-                width: 100%;
-            }
-
-            .actions {
-                flex-direction: column;
-            }
-        }
-
-        @media (max-width: 400px) {
-            .domain-item .name {
-                font-size: 17px;
-            }
-            .domain-item {
-                padding: 16px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>星叶AI - 智能对话助手 | xchatai.com.cn</title>
+<meta name="keywords" content="AI对话助手,智能聊天,AI问答,人工智能,在线AI,智能写作">
+<meta name="description" content="星叶AI 是一款简洁高效的智能对话助手，提供多场景 AI 问答、思路整理与创作支持，让每一次对话都带来新的可能。">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="星叶AI - 智能对话助手">
+<meta property="og:description" content="和 AI 对话，探索无限可能。多场景智能问答、创作与思考伙伴。">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <div class="card">
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="星叶AI 首页">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.5-.3-3.6-.8L3 21l1.8-5.9A8.5 8.5 0 1 1 21 11.5z"/>
+          <path d="M12 8v.1M8.5 11.5h.1M15.5 11.5h.1"/>
+        </svg>
+      </span>
+      星叶<span class="logo-ai">AI</span>
+    </a>
+    <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-label="打开导航">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-link active" href="index.html">首页</a>
+      <a class="nav-link" href="features/index.html">产品功能</a>
+      <a class="nav-link" href="help/index.html">帮助中心</a>
+      <a class="nav-link" href="news/index.html">资讯动态</a>
+      <a class="nav-link" href="about/index.html">关于我们</a>
+      <a class="nav-cta" href="https://chat.deepseek.com" target="_blank" rel="noopener nofollow">立即体验</a>
+    </nav>
+  </div>
+</header>
 
-        <!-- 头部 -->
-        <div class="header">
-            <h1>✦ 域名出售</h1>
-            <span class="badge">💰 价格亲民 · 看中就带走</span>
-        </div>
-
-        <div class="divider"></div>
-
-        <!-- ===== 域名 1 ===== -->
-        <div class="domain-item">
-            <div class="name">xchatweb<span class="ext">.cn</span></div>
-            <div class="desc">聊天工具 · Web应用 <span>|</span> 适合在线客服、即时通讯</div>
-            <span class="price-tag">🎯 白菜价</span>
-        </div>
-
-        <!-- ===== 域名 2 ===== -->
-        <div class="domain-item">
-            <div class="name">xchatai<span class="ext">.com.cn</span></div>
-            <div class="desc">AI对话 · 智能聊天 <span>|</span> 适合AI助手、机器人平台</div>
-            <span class="price-tag">🎯 白菜价</span>
-        </div>
-
-        <!-- ===== 域名 3 ===== -->
-        <div class="domain-item">
-            <div class="name">xchatapp<span class="ext">.com.cn</span></div>
-            <div class="desc">聊天应用 · 移动社交 <span>|</span> 适合社交App、即时通讯软件</div>
-            <span class="price-tag">🎯 白菜价</span>
-        </div>
-
-        <!-- ===== 行动按钮 ===== -->
-        <div class="actions">
-            <a class="btn" href="https://www.juming.com/1146824/" target="_blank" rel="noopener">
-                🛒 查看报价 &amp; 立即购买
-            </a>
-            <a class="btn btn-outline" href="mailto:pydomain@163.com">
-                ✉️ 联系卖家
-            </a>
-        </div>
-
-        <!-- 店铺链接文字 -->
-        <p style="margin-top:18px; font-size:13px; color:rgba(255,255,255,0.2);">
-            出售店铺：<a href="https://www.juming.com/1146824/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.35); text-decoration:none; border-bottom:1px dotted rgba(255,255,255,0.10);">聚名网 · 1146824</a>
-        </p>
-
-        <div class="footer">
-            <a href="mailto:pydomain@163.com">pydomain@163.com</a> · 三个域名均单独出售
-        </div>
-
+<main>
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
     </div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="hero-badge"><span class="pulse"></span>AI 智能对话 · 随时在线</span>
+        <h1 class="hero-title">和 AI 对话，<br>探索<span class="grad">无限可能</span></h1>
+        <p class="hero-sub">星叶AI 是一个简洁高效的智能对话助手，陪你问答解惑、整理思路、起草内容，在一次次对话里，把想法慢慢变成现实。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://chat.deepseek.com" target="_blank" rel="noopener nofollow">
+            立即体验
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="features/index.html">了解产品功能</a>
+        </div>
+        <p class="hero-note">简约 · 高效 · 值得信赖的 AI 对话伙伴</p>
+      </div>
 
+      <div class="chat-card" role="img" aria-label="星叶AI 对话界面演示">
+        <div class="chat-head">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="chat-title">xchatai · 星叶</span>
+        </div>
+        <div class="chat-body">
+          <div class="msg ai"><span class="label">XCHAT AI</span>你好，我是星叶AI。今天想聊点什么，或者需要我帮你做点什么？</div>
+          <div class="msg user">帮我整理一份本周的工作计划</div>
+          <div class="msg ai"><span class="label">XCHAT AI</span>好的，我按目标帮你拆成了三件事：完成产品原型评审、更新周报数据、预约团队周会。需要我把细节展开吗？</div>
+          <div class="msg ai typing" aria-hidden="true"><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">CORE CAPABILITIES</span>
+        <h2 class="section-title">把复杂的事，交给会聊天的 AI</h2>
+        <p class="section-sub">围绕对话展开的核心能力，覆盖工作、学习与生活的常见场景。</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.5-.3-3.6-.8L3 21l1.8-5.9A8.5 8.5 0 1 1 21 11.5z"/><path d="M12 8v.1M8.5 11.5h.1M15.5 11.5h.1"/></svg>
+          </div>
+          <h4>自然对话</h4>
+          <p>像和朋友聊天一样提问，AI 理解上下文，连续追问也不怕，越聊越懂你的意思。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 17.5l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9.9-2.6z"/></svg>
+          </div>
+          <h4>深度思考</h4>
+          <p>面对复杂问题，AI 会先拆解再作答，把推理过程讲清楚，帮你看到答案背后的逻辑。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="13" height="9" rx="1.6"/><path d="M9.5 20h5M12 13v7"/><rect x="15.5" y="11.5" width="5.5" height="8.5" rx="1.6"/></svg>
+          </div>
+          <h4>多端使用</h4>
+          <p>网页端随开随用，对话记录保持同步，换一个设备，话题还能接着聊。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.4-2.9 7.7-7 9-4.1-1.3-7-4.6-7-9V6l7-3z"/><path d="M9 12l2 2 4-4.5"/></svg>
+          </div>
+          <h4>隐私保护</h4>
+          <p>重视你的每一次对话，个人信息与聊天内容的安全保护，是产品设计的底线。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 13.5H11L9.5 22 19 10.5h-6.5L13 2z"/></svg>
+          </div>
+          <h4>快速响应</h4>
+          <p>打开页面就能开始对话，问题提出即有回音，不让人在等待里消耗耐心。</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.3-5.7"/><path d="M20 3v4h-4"/></svg>
+          </div>
+          <h4>持续进化</h4>
+          <p>模型能力与对话体验持续更新，功能边界一步步拓宽，陪你一起成长。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft" id="scenes">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">USE SCENARIOS</span>
+        <h2 class="section-title">一个助手，四种打开方式</h2>
+        <p class="section-sub">不问出身，只看用途。把它用在需要它的地方，就是最合适的用法。</p>
+      </div>
+      <div class="scene-strip">
+        <div class="scene-item">
+          <span class="scene-num">01</span>
+          <h4>学习辅导</h4>
+          <p>概念讲解、题目思路、论文润色，不懂就问</p>
+        </div>
+        <div class="scene-item">
+          <span class="scene-num">02</span>
+          <h4>办公写作</h4>
+          <p>周报、邮件、文案、方案初稿，动笔前先聊一版</p>
+        </div>
+        <div class="scene-item">
+          <span class="scene-num">03</span>
+          <h4>编程助手</h4>
+          <p>代码解释、报错排查、重构建议，随问随答</p>
+        </div>
+        <div class="scene-item">
+          <span class="scene-num">04</span>
+          <h4>灵感创作</h4>
+          <p>起名、选题、大纲、故事线，让灵感先跑起来</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="news">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">LATEST</span>
+        <h2 class="section-title">资讯动态</h2>
+        <p class="section-sub">实用技巧、产品更新与 AI 使用心得，都在这里。</p>
+      </div>
+      <div class="news-grid">
+        <a class="news-card" href="news/posts/prompt-guide/index.html">
+          <div class="news-meta"><span class="news-tag">技巧</span><time datetime="2026-08-28">2026-08-28</time></div>
+          <h4>高质量提问指南：让 AI 更懂你</h4>
+          <p>同样一个问题，换个问法，回答质量可能完全不同。一份从入门到进阶的提示词写作指南。</p>
+          <span class="news-more">阅读全文</span>
+        </a>
+        <a class="news-card" href="news/posts/ai-tips/index.html">
+          <div class="news-meta"><span class="news-tag">心得</span><time datetime="2026-09-06">2026-09-06</time></div>
+          <h4>与 AI 协作的五个实用习惯</h4>
+          <p>把 AI 当成同事而不是搜索引擎，五个小习惯让协作效率明显提升。</p>
+          <span class="news-more">阅读全文</span>
+        </a>
+        <a class="news-card" href="news/index.html">
+          <div class="news-meta"><span class="news-tag">栏目</span><time datetime="2026-09-15">2026-09-15</time></div>
+          <h4>更多内容，正在路上</h4>
+          <p>资讯栏目会持续更新产品动态与使用教程，欢迎常回来看看。</p>
+          <span class="news-more">浏览全部</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <h2>准备好开始了吗？</h2>
+        <p>打开星叶AI，向它说出你的第一个问题。可能从一句「你好」开始，就停不下来了。</p>
+        <div class="hero-actions" style="justify-content:center">
+          <a class="btn btn-primary" href="https://chat.deepseek.com" target="_blank" rel="noopener nofollow">立即体验</a>
+          <a class="btn btn-ghost" href="help/index.html">查看帮助中心</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.5-.3-3.6-.8L3 21l1.8-5.9A8.5 8.5 0 1 1 21 11.5z"/>
+              <path d="M12 8v.1M8.5 11.5h.1M15.5 11.5h.1"/>
+            </svg>
+          </span>
+          星叶<span class="logo-ai">AI</span>
+        </a>
+        <p>让每一次对话，都有新的可能。星叶AI，你的智能对话伙伴。</p>
+      </div>
+      <div class="footer-col">
+        <h4>产品</h4>
+        <ul>
+          <li><a href="features/index.html">产品功能</a></li>
+          <li><a href="help/index.html">帮助中心</a></li>
+          <li><a href="news/index.html">资讯动态</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>支持</h4>
+        <ul>
+          <li><a href="about/index.html">关于我们</a></li>
+          <li><a href="privacy/index.html">隐私政策</a></li>
+          <li><a href="terms/index.html">用户协议</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>友情链接</h4>
+        <ul>
+          <li>
+            <a class="footer-friend" href="https://www.4414.cn" target="_blank" rel="noopener nofollow">
+              站长论坛
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 5h5v5M19 5l-8 8"/><path d="M19 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year">2026</span> 星叶AI · xchatai.com.cn · 保留所有权利</p>
+      <p><!-- 上线后在此补充 ICP 备案号，示例：苏ICP备XXXXXXXX号 --></p>
+    </div>
+  </div>
+</footer>
+
+<button id="themeToggle" class="theme-switch" aria-label="切换黑白主题">
+  <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>
+  <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+  <span class="theme-knob"></span>
+</button>
+<span id="themeHint" class="theme-hint" role="status"></span>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>

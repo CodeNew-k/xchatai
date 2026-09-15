@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xchatai.com.cn/sitemap.xml
